@@ -1,0 +1,41 @@
+{
+  "name": "micro-app-mqtt-switchmate-bridge",
+  "version": "0.0.1",
+  "description": "MQTT to tp-link smart device bridge",
+  "main": "index.js",
+  "dependencies": {
+    "micro-app-framework": "^0.1.1",
+    "socket.io": "~2.1.1",
+    "mqtt": "~1.6.3",
+    "node-switchmate3": "~0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/micro-app-mqtt-switchmate-bridge.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "dashboard",
+    "micro-app",
+    "switchmate",
+    "smart switch"
+  ],
+  "author": "Michael Dawson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdawson/micro-app-mqtt-switchmate-bridge/issues"
+  },
+  "homepage": "https://github.com/mhdawson/micro-app-mqtt-switchmate-bridge#readme",
+  "contributors": [
+    {
+      "name": "Michael Dawson",
+      "email": "mdawson@devrus.com"
+    }
+  ]
+}

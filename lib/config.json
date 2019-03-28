@@ -1,0 +1,12 @@
+{
+  "serverPort": 3000,
+  "MaxRecentActivity": 100,
+  "mqttServerUrl": "tcp://XXXXXXXXXX:1883",
+  "devices": [
+    { "topic" : "house/switchmate/basement",
+      "device": {
+        "id": "XXXXXXXXXXXX"
+      }
+    }
+  ]
+}
